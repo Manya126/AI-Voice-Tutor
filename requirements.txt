@@ -1,0 +1,8 @@
+faster-whisper
+gradio
+groq
+gTTS
+soundfile
+numpy
+torch
+torchaudio
