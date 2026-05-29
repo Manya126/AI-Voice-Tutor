@@ -9,9 +9,27 @@ Students struggle to get instant answers to study questions outside classroom ho
 ## 🎯 Live Demo
 **Try it yourself:** https://c506c12ec5e8027062.gradio.live/
 
-**Sample audio files to test:**
-- Upload `My_audio.wav` — sample question audio
-- Expected response audio: `AI_Tutor_Response.wav`
+**Sample audio files to test (upload these):**
+- `My_audio.wav` — sample question audio
+- `AI_Tutor_Response.wav` — expected response audio
+
+## ⚠️ How to Use (Important)
+For best results follow these steps:
+1. Click the **microphone icon** to start recording
+2. Ask your question clearly in any language
+3. Click **Stop** to stop recording
+4. **Wait 2-3 seconds** for the audio to process
+5. Click **Submit**
+6. Wait for the AI to process — response takes 5-10 seconds
+> **Note:** Do not click Submit while still recording. Always click Stop first and wait a moment before submitting.
+
+## 🌍 Multilingual Support
+The assistant understands and responds in **any language**! Just ask your question in your preferred language:
+- **English:** "What is photosynthesis?"
+- **Hindi:** "Photosynthesis kya hoti hai?"
+- **Hinglish:** "Machine learning explain karo"
+
+The tutor will respond in the same language you speak in.
 
 ## Why I built this
 I chose this because I've personally mentored underprivileged students through the Desh Ka Mentor program and seen how many lack access to on-demand academic help. A voice-first tutor removes barriers for students who struggle with typing or have limited resources. This felt like a problem worth solving — not just a technical exercise.
@@ -67,15 +85,17 @@ Initially used fixed `/tmp/input.wav` causing a critical caching bug — every q
 
 ## Sample Transcript
 
-**Student asks:** *"What is the capital of India?"*
+**English:**
+- Student: *"What is the capital of India?"*
+- Tutor: *"The capital of India is New Delhi. It is located in the northern part of the country and is a major cultural and economic hub."*
 
-**Tutor responds:** *"The capital of India is New Delhi. It is located in the northern part of the country and is a major cultural and economic hub."*
+**Hindi:**
+- Student: *"Please explain environment in Hindi language."*
+- Tutor: *"Pariveshan ya Bhugol ki shaktiyan, jaise prithvi, jal, vayu, aur shetru, yeh sabhi mil kar hamara parivaar ya environment ke roop mein jaante hain."*
 
----
-
-**Student asks:** *"What is machine learning?"*
-
-**Tutor responds:** *"Machine learning is a subset of artificial intelligence that involves training algorithms to learn from data and make predictions without being explicitly programmed. It allows computers to improve their performance on a task over time based on the data they receive."*
+**Machine Learning:**
+- Student: *"What is machine learning?"*
+- Tutor: *"Machine learning is a subset of artificial intelligence that involves training algorithms to learn from data and make predictions without being explicitly programmed. It allows computers to improve their performance on a task over time based on the data they receive."*
 
 ## What I used AI for
 
